@@ -106,7 +106,7 @@ ul li a{
     position: absolute;
     
     bottom:4px;
-    right:110px;
+    right:80px;
  }
  .image-3{
     position: absolute;
@@ -132,8 +132,6 @@ ul li a{
    justify-content: space-between;
    margin: 10px 0;
    top:30px;
-   
-  
  }
  .about-containers{
    padding: 75px;
@@ -239,5 +237,28 @@ grid-area: one;
 }
 .box-6{
    grid-area: six; 
-} */
+} 
 
+footer{
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap:15px;
+    background-color: #fff8f3;
+    
+    padding: 20px;
+    
+}
+footer form{
+    padding: 20px;
+}
+footer form input,footer form textarea{
+    border:none;
+    outline: none;
+    background-color: white;
+    padding: 8px 15px;
+    border-radius: 8px;
+    display: block;
+    margin-bottom: 8px;
+    width: 100%;
+}
