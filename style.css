@@ -175,28 +175,18 @@ ul li a{
     text-align: center;
     margin: 100px;
 }
-.csss{
+
+  .csss{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1000px;
+    margin: 50px auto;
+    gap: 40px;
     text-align: center;
-    width: 1000px;
-    margin: 120px;
-    color: #474747;
-    
 }
-.common-buttonsf{
-     background-color:#fd6e0aFF;;
-     padding: 10px 10px;
-    border-radius: 3px;
-    font-weight: bold;
-    font-size: 15px;
-    color: white;
-    border: none;
-    cursor: pointer;
-    align-items: center;
-    position: absolute;
-    right: 600px;
-}
+
+
 .amazing-works{
     text-align: center;
     
@@ -261,4 +251,7 @@ footer form input,footer form textarea{
     display: block;
     margin-bottom: 8px;
     width: 100%;
+}
+.jss{
+    text-align: center;
 }
