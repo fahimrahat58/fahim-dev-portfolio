@@ -89,6 +89,7 @@ ul li a{
 }
 .all-container{
       background-color:#fff8f3;
+      width: 100%;
 }
 .hero-right{
     position: relative;
@@ -98,15 +99,16 @@ ul li a{
 .image-1{
     position: relative;
     z-index: 2;
-
+    
     max-width: 100%;
 }
  .image-2{
     
     position: absolute;
-    
+    width: 100% !important;
+    height: 62%;
     bottom:4px;
-    right:80px;
+    left: -20px;
  }
  .image-3{
     position: absolute;
